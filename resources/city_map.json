@@ -1,0 +1,17 @@
+{
+  "description": "Sample small city road network for testing. Node 0 is the hospital location.",
+  "numNodes": 8,
+  "hospitalNodeId": 0,
+  "edges": [
+    { "from": 0, "to": 1, "weight": 4 },
+    { "from": 0, "to": 2, "weight": 7 },
+    { "from": 1, "to": 3, "weight": 3 },
+    { "from": 2, "to": 3, "weight": 2 },
+    { "from": 2, "to": 4, "weight": 6 },
+    { "from": 3, "to": 5, "weight": 5 },
+    { "from": 4, "to": 5, "weight": 2 },
+    { "from": 4, "to": 6, "weight": 8 },
+    { "from": 5, "to": 7, "weight": 4 },
+    { "from": 6, "to": 7, "weight": 3 }
+  ]
+}
